@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="CSSFG/style.css">
+
+</head>
+<body>
+
+    <button id="btnChat" onclick="chatActive()">CHAT</button>
+    <div id="chat">
+    <h2>CHAT EN LINEA</h2>
+</div>
+
+
+    <h1>FIGURAS GEOMETRICAS</h1>
+    </div>
+   <div id="fila">
+     <div id="cajaBotones">
+        <h2>BOTONES</h2>
+        <button onclick="Fcirculo()">CIRCULO</button>
+        <button onclick="Frombo()">ROMBO</button>
+        <button onclick="Frectangulo1()">RECTANGULO <br> HORIZONTAL</button>
+        <button onclick="Frectangulo2()">RECTANGULO <br> VERTICAL</button>
+        <button onclick="arriba()">ARRIBA</button>
+        <button onclick="bajar()">ABAJO</button>
+        <button onclick="izquierda()">IZQUIERDA</button>
+        <button onclick="derecha()">DERECHA</button>
+        <button onclick="diagonal()">DIAGONAL</button>
+        
+     </div>
+
+     <div id="cajaFigura">
+        <h2>FIGURAS</h2>
+        <div id="figura"></div>
+     </div> 
+     
+     </div>
+     
+     <div id="contOperaciones()">
+        <h2>CAPTURAR DATOS</h2>
+         <input type="number" id="valor1">
+         <select name="#" id="operaciones">
+             <option value="+">+</option>
+             <option value="-">-</option>
+             <option value="*">X</option>
+             <option value="/">/</option>
+         </select>
+         <input type="number" id="valor2">
+         <button onclick="operaciones()">=</button>
+         <input type="number" id="respuesta">
+    </div>
+
+<script src="JSFG/main.js"></script>
+</body>
+</html>
